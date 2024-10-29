@@ -118,6 +118,15 @@ public class HelloController {
         }
     }
 
+
+
+    /**
+     * Loads a new view by initializing another FXML file and displaying it in a new stage.
+     * The method  closes the current window after opening a new one.
+     *
+     * @throws IOException if there's an error loading the FXML file.
+     */
+
     private void loadAnotherView() {
         try {
             // Loads new FXML file
